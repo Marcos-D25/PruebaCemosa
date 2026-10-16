@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Learn TypeScript",
+    "completed": false,
+    "favorite": true,
+    "description": ""
+  },
+  {
+    "title": "Learn Vite",
+    "completed": false,
+    "favorite": true,
+    "description": ""
+  },
+  {
+    "title": "Learn FastAPI",
+    "completed": false,
+    "favorite": false,
+    "description": ""
+  },
+  {
+    "title": "Learn Docker",
+    "completed": false,
+    "favorite": false,
+    "description": ""
+  },
+  {
+    "title": "Learn PostgreSQL",
+    "completed": false,
+    "favorite": true,
+    "description": ""
+  },
+  {
+    "title": "Learn Tailwind CSS",
+    "completed": false,
+    "favorite": false,
+    "description": ""
+  }
+]
