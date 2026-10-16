@@ -13,8 +13,8 @@ interface TodoListProps {
 
 const TodoList: React.FC<TodoListProps> = ({ todos, toggleTodo, deleteTodo, toggleFavorite, addDescription}) => {
   return (
-    <div className="flex gap-30">
-      <ul className="space-y-2">
+    <div className="flex">
+      <ul className="">
         <span className="text-black-400 justify-content-center align-items-center">NO FAVORITOS</span>
         {todos.map((todo) =>  {
           if (!todo.favorite){
@@ -33,7 +33,7 @@ const TodoList: React.FC<TodoListProps> = ({ todos, toggleTodo, deleteTodo, togg
       }
       </ul>
       
-      <ul className="space-y-2">
+      <ul className="ml-auto">
         <span className="text-yellow-400 justify-content-center align-items-center">FAVORITOS</span>
         {todos.map((todo) =>  {
           if (todo.favorite){
